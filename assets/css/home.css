@@ -174,10 +174,12 @@ p{
     }
     .market-box {
         width: calc(50% - 6px);
+        height: 183px;
+        padding: 16px;
     }
     .market-cnt {
 
-        max-width: 420px;
+        max-width: 340px;
         width: 100%;
         margin: 24px auto 0;
     }
@@ -192,11 +194,7 @@ p{
     .market-box>img {
         width: 24px;
     }
-    .market-box {
-        height: 183px;
-        padding: 16px;
-        border-radius: 20px;
-    }
+
     h2 {
         font-size: 28px;
         line-height: 32.2px;
@@ -705,6 +703,9 @@ p{
         padding: 20px;
         height: 200px;
         max-width: 500px;
+    }
+    .increasing-steps h3 {
+        max-width: 255px;
     }
 }
 @media (max-width: 430px){
