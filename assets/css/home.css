@@ -88,7 +88,7 @@ p{
     padding: 20px;
     border-radius: 24px;
     margin-bottom: -100px;
-
+    border: 1px solid rgba(255, 255, 255, 0.15);
 }
 .market-box h3{
     color: rgba(255, 255, 255, 1);
@@ -631,7 +631,7 @@ p{
 }
 .simple-steps-box{
     width: calc(50% - 6px);
-    background-image: url("../img/steps-fon.png");
+    background-image: url("../img/steps-fon.svg");
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 24px;
@@ -655,7 +655,7 @@ p{
     height: 64px;
 }
 .increasing-steps{
-    background-image: url("../img/steps-fon-two.png");
+    background-image: url("../img/steps-fon-two.svg");
 }
 .increasing-steps h3{
     color: #ffffff;
@@ -715,13 +715,13 @@ p{
         height: 48px;
     }
     .simple-steps-box{
-        background-image: url("../img/steps-fon-mob.png");
+        background-image: url("../img/steps-fon-mob.svg");
         background-position: top;
 
         max-width: 420px;
     }
     .increasing-steps{
-        background-image: url("../img/steps-mob-two.png");
+        background-image: url("../img/steps-mob-two.svg");
     }
     .increasing-steps h3 {
         max-width: 245px;
@@ -874,6 +874,8 @@ p{
 .sales-manager p{
     margin-top: 24px;
     color: rgba(255, 255, 255, 0.75);
+    position: relative;
+    z-index: 1;
 }
 .icon-star-yellow{
     content: url("../img/icon/star-yellow.svg");
